@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+    - name: stripe
+      database: DBT_LEARN_ON_DEMAND
+      tables:
+        - name: payment
