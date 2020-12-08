@@ -35,5 +35,6 @@ models:
   jaffle_shop:
     dw:
         +materialized: table
+        +incremental_strategy: "insert_overwrite"
     staging:
         +materialized: view
