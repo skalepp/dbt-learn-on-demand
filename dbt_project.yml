@@ -37,4 +37,4 @@ models:
         +materialized: table
         +incremental_strategy: "insert_overwrite"
     staging:
-        +materialized: view
+        +materialized: table
